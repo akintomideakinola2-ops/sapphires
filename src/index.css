@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Button Primary */
+.btn-primary {
+   @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Button Secondary */
+.btn-secondary {
+   @apply bg-gray-500 text-white font-bold py-2 px-4 rounded;
+}
+
+/* Section Title */
+.section-title {
+   @apply text-2xl font-semibold text-gray-800;
+}
